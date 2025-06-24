@@ -1,7 +1,8 @@
 from PyQt5.QtWidgets import QMainWindow, QTabWidget, QWidget, QVBoxLayout, QLabel
 from .solar_tab import SolarTab 
 from .renamer_tab import RenamerTab
-from .exif_reader_tab import ExifReaderTab  # <-- Ajoute cette ligne
+from .exif_reader_tab import ExifReaderTab
+from .fit_reader_tab import FitsViewerTab
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -29,4 +30,7 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(SolarTab(), "météo solaire")
 
         # Onglet Exif Reader
-        self.tabs.addTab(ExifReaderTab(), "Exif Reader")  # <-- Modifie cette ligne
+        self.tabs.addTab(ExifReaderTab(), "Exif Reader")
+
+        # Onglet FITS Viewer
+        self.tabs.addTab(FitsViewerTab(), "FITS Viewer")

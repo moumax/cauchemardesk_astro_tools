@@ -10,7 +10,10 @@ This is a simple Python GUI application built using a GUI framework.
 - si nom personnalisé + date : mauvaise gestion des doublons (enlever l'incrémentation)
 
 [x] Nouvel onglet lecteur d'exifs
-[] Nouvel onglet lecteur .fit
+[x] Nouvel onglet lecteur .fit
+[] Nouvel onglet astro calculs - Calcul d'échantillonage - Calcul de grossissement
+
+[] Nouvel onglet visualisateur de champs - Manuellement tout d'abord - Possibilité d'enregistrer ses différents matériels (enregistrement Json)
 
 ## Project Structure
 

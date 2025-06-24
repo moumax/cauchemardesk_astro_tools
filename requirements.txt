@@ -5,3 +5,6 @@ exifread
 Pillow
 imageio
 astropy
+numpy
+pyqtgraph
+photutils
