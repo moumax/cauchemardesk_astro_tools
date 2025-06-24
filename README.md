@@ -1,6 +1,16 @@
 # My Python GUI Application
 
-This is a simple Python GUI application built using a GUI framework. 
+This is a simple Python GUI application built using a GUI framework.
+
+## Todo
+
+[] Problème de doublons
+
+- si nom personalisé : OK
+- si nom personnalisé + date : mauvaise gestion des doublons (enlever l'incrémentation)
+
+[x] Nouvel onglet lecteur d'exifs
+[] Nouvel onglet lecteur .fit
 
 ## Project Structure
 

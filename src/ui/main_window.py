@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QTabWidget, QWidget, QVBoxLayout, QLabel
 from .solar_tab import SolarTab 
 from .renamer_tab import RenamerTab
+from .exif_reader_tab import ExifReaderTab  # <-- Ajoute cette ligne
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -26,3 +27,6 @@ class MainWindow(QMainWindow):
 
         # Onglet météo solaire (nouveau widget)
         self.tabs.addTab(SolarTab(), "météo solaire")
+
+        # Onglet Exif Reader
+        self.tabs.addTab(ExifReaderTab(), "Exif Reader")  # <-- Modifie cette ligne

@@ -2,3 +2,6 @@ PyQt5
 PyQt5-sip
 requests
 exifread
+Pillow
+imageio
+astropy
